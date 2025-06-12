@@ -1,0 +1,119 @@
+//************************
+//** COLORS
+//************************
+
+$primary: #1F2E58;
+$primary-75: #8F96AD;
+$primary-50: #D2D5DE;
+$primary-25: #FFBD83;
+$primary-10: #FFE5CD;
+
+$secondary: #FF7C07;
+$secondary-75: #FF9A3D;
+$secondary-50: #FFBD83;
+$secondary-25: #FFE5CD;
+
+$tertiary: #D2D5DE;
+
+$red:  #FF6363;
+$red-25: #FFA5A5;
+$red-10: #FFE7E7;
+
+$grey-02: #FFE5CD;
+$grey-05: #FFF0E4;
+$grey-10: #F8E3D2;
+$grey-20: #D2D5DE;
+$grey-30: #A9AABC;
+$grey-40: #8F96AD;
+$grey-50: #70728F;
+$grey-60: #5A5B72;
+$grey-70: #434456;
+$grey-80: #2D2D39;
+$grey-90: #1F2E58;
+
+// Color aliases for retrocompatibility
+$black: #000;
+$blackish: $grey-90;
+$grayer: $grey-70;
+$gray: $grey-60;
+$gray-light: $grey-50;
+$gray-lighter: $grey-30;
+$whitish: $grey-10;
+$mass-white: $grey-05;
+$white: #fff;
+
+// Primary colors
+$primary-light: $primary-75;
+$primary-lighter: $primary-10;
+$primary-dark: $primary-50;
+$primary-background: $primary-25;
+
+// Secondary colors
+$secondary-light: $secondary-50;
+$secondary-dark: darken($secondary, 15%);
+
+//Status colors
+$green-light: #FFE5CD;
+$red-light: lighten($red, 12%);
+$my-sin: #FFBD83;
+$yellow-green: #FF9A3D;
+
+//Card color
+$card: #FFE5CD;
+$card-hover: #FFBD83;
+$card-dark: #D2D5DE;
+
+$tribe-primary: #1F2E58;
+$tribe-secondary: darken($tribe-primary, 10%);
+
+$top-icon-color: #1F2E58;
+$dropdown-color: rgba(darken($grayer, 20%), 1);
+$code-bg: #2D2D39;
+
+$highlight: #FFBD83;
+
+// TAIGA 6
+
+// Primary colors
+$color-solid-primary: #8F96AD;
+$color-link-primary: #FF7C07;
+$color-link-tertiary: #70728F;
+
+// Grayscale
+$color-gray100: #FFE5CD;
+$color-gray200: #FFF0E4;
+$color-gray300: #F8E3D2;
+$color-gray400: #D2D5DE;
+$color-gray800: #70728F;
+
+$color-black600: #5A5B72;
+$color-black700: #434456;
+$color-black800: #2D2D39;
+$color-black900: #1F2E58;
+
+// State colors
+$color-link-red: #FF6363;
+$color-link-orange: #FF7C07;
+$color-link-yellow: #FFBD83;
+$color-link-green: #D2D5DE;
+$color-link-purple: #8F96AD;
+
+// State colors
+$color-solid-red: rgba($color-link-red, .25);
+$color-solid-orange: rgba($color-link-orange, .25);
+$color-solid-yellow: rgba($color-link-yellow, .25);
+$color-solid-green: rgba($color-link-green, .25);
+$color-solid-purple: rgba($color-link-purple, .25);
+
+$color-white: #FFFFFF;
+$color-black: #000000;
+
+//Helpers
+$default-tags: #A9AABC;
+
+//Loading colors
+$loading-color-1: #FFE5CD;
+$loading-color-2: #FFBD83;
+$loading-color-3: #FF9A3D;
+$loading-color-4: #FF7C07;
+$loading-color-5: #1F2E58;
